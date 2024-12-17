@@ -43,9 +43,9 @@ class NhaccController extends Controller
         return redirect('/nhacc');
     }
     // delete -> $manhacc
-    public function delete($manhacc)
+    public function delete($nhacc)
     {
-        DB::table('nvknhacc')->where('nvkMaNCC','=', $manhacc)->delete();
+        DB::table('nvknhacc')->where('nvkMaNCC','=', $nhacc)->delete();
         return redirect('/nhacc');
     }
     #Create Form

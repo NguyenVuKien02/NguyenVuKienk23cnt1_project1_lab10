@@ -64,7 +64,7 @@
                                     <a href="/nhacc/edit/{{$item->nvkMaNCC}}" class="btn btn-primary">
                                         Sửa</a>
                                     <a href="/nhacc/delete/{{$item->nvkMaNCC}}" class="btn btn-danger"
-                                        onclick="return confirm('Bạn muốn xóa sinh viên này không? Mã:' + {{$item->nvkMaNCC}});">
+                                        onclick="return confirm('Bạn muốn xóa nhà cung cấp này không? ')">
                                         Xóa </a>
                                 </td>
                             </tr>

@@ -23,7 +23,7 @@ Route::get('/nhacc/detail/{nvkMaNCC}',[NhaccController::class,'getnhaccById'])->
 Route::get('/nhacc/edit/{nhacc}',[NhaccController::class,'edit'])->name('nhacc.edit');
 Route::post('/nhacc/edit',[NhaccController::class,'editSubmit'])->name('nhacc.editSubmit');
 ## Xóa thông tin môn học
-Route::get('/nhacc/delete/{manhacc}',[NhaccController::class,'delete'])->name('nhacc.delete');
+Route::get('/nhacc/delete/{nhacc}',[NhaccController::class,'delete'])->name('nhacc.delete');
 # thêm mới
 Route::get('/nhacc/create',[NhaccController::class,'create'])->name('nhacc.create');
 Route::post('/nhacc/create',[NhaccController::class,'createSubmit'])->name('nhacc.createSubmit');
